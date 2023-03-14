@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+}
+
+
+body{
+  padding: 10px 0px 0px 0px;
+  background-color: rgba(2, 17, 41, 0.845);
+
+}
+.carousel-inner img{
+  width: 100%;
+  height: 90vh;
+  object-fit: scale-down;
+
+}
+.carousel{
+  margin: 0px;
+  width: 100%;
+  height: auto;
+}
+/* ======================================================================================= */
+
+/* #home img{
+  width:90px;
+  height: 90px;
+ 
+} */
+
+/* .nav ul li {
+  list-style: none;
+  /* display: inline-block;/ */
+  
+/* } */
+
+
+/* nav{
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content:center ;
+  
+} */
+
+
+/* ========================================================================== */
+/* .nav{
+  margin: 20px 0px;
+  width: 100%;
+  height: 60px;
+  background-color: #06809bfa;
+  border-top:2px solid white ;
+  border-bottom:2px solid rgba(3, 47, 58, 0.877) ;
+  background-image: linear-gradient(rgb(227, 228, 230), #0db3d8fa, rgb(4, 48, 62));
+  position: relative;
+  /* overflow: hidden; }*/
+
+ 
+h1{
+  padding: 0px ;
+  margin: 0px 0px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  background-color: rgba(7, 201, 255, 0.977);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  text-shadow: 2px 2px 1px #000;
+  border-radius: 8px;
+  text-decoration:none;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.749), inset -2px -2px 3px rgb(0, 0, 0);
+  width: 300px;
+  height: 100px;
+  
+  
+}
+.nav h1{
+  margin: auto;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: #ffffffe3;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  width: auto;
+  height: 40px;
+  opacity: 50%;
+  border-radius: 20px;
+  line-height: 1;
+  font-size: 12px;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.749), inset -2px -2px 3px rgb(0, 0, 0);
+  color: #090000;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* =======================================================fotter========================================= */
+
+.Footer{
+  
+    margin: 20px 0px 1px 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #02181efa;
+    /* border-top:2px solid white ; */
+    /* border-bottom:2px solid white ; */
+    /* background-image: linear-gradient(rgb(80, 80, 80), #0db3d8fa, rgb(4, 48, 62)); */
+  
+  }
